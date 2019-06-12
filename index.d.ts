@@ -5,7 +5,7 @@ declare module 'react-native-view-more-text' {
   export interface ViewMoreTextProps extends ViewProperties {
     numberOfLines: number;
     renderViewMore?: (handlePress: () => void) => JSX.Element;
-    renderViewMore?: (handlePress: () => void) => JSX.Element;
+    renderViewLess?: (handlePress: () => void) => JSX.Element;
     defaultFooter?: () => JSX.Element;
     afterCollapse?: () => void;
     afterExpand?: () => void;
